@@ -1,0 +1,408 @@
+INFO:root:Search Configuration:
+Opponent: MINIMAX
+Rounds: 200
+Fair Matches: False
+Time Limit: 150
+Processes: 1
+Debug Mode: False
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37364496968643235947734063019722720, ply_count=69, locs=(13, 1))
+History: [57, 0, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=31033636789494788777568764616394747, ply_count=52, locs=(113, 98))
+History: [104, 79, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=28519043879939690457382385755890165, ply_count=55, locs=(3, 10))
+History: [66, 104, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=22737235030157471941196476772493238, ply_count=66, locs=(48, 81))
+History: [0, 101, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=36326902661308125757184645487601662, ply_count=35, locs=(35, 62))
+History: [78, 0, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=16454045682104366433798581940971075, ply_count=59, locs=(5, 41))
+History: [114, 85, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=39980541221739440458201616848520586, ply_count=75, locs=(27, 74))
+History: [78, 0, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=33144015185994253539740724266516859, ply_count=69, locs=(108, 35))
+History: [10, 104, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=26655391774693045074926181607941813, ply_count=67, locs=(3, 14))
+History: [108, 104, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=39147751876486296029536599840671499, ply_count=69, locs=(6, 81))
+History: [104, 110, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=3226366392999505825684408850982166, ply_count=64, locs=(48, 61))
+History: [35, 0, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=15804124682820638544010529064100759, ply_count=72, locs=(87, 110))
+History: [10, 55, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=11827182576028352965186712655364257, ply_count=83, locs=(61, 8))
+History: [70, 114, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=40445903035301403859321681157957605, ply_count=72, locs=(61, 91))
+History: [104, 78, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=26654908978082146387693705274680063, ply_count=68, locs=(78, 93))
+History: [57, 104, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=17832187072205643703590146975752236, ply_count=65, locs=(6, 52))
+History: [0, 93, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=33652244041787818820594316239193472, ply_count=68, locs=(79, 9))
+History: [20, 0, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=8052752953724462611390946957746831, ply_count=72, locs=(93, 48))
+History: [114, 105, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=10569992569717653858921322725360827, ply_count=77, locs=(91, 21))
+History: [9, 114, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=16695119666359836789914157583968190, ply_count=68, locs=(79, 65))
+History: [0, 114, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=12352151166798530301904660597876374, ply_count=73, locs=(78, 55))
+History: [106, 0, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=39877866781948301486608145724957167, ply_count=62, locs=(86, 110))
+History: [104, 66, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37363209740707584334876654261650377, ply_count=65, locs=(91, 43))
+History: [75, 104, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=16899057888824440083626994585068428, ply_count=74, locs=(4, 71))
+History: [0, 61, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=1909361579000891812351708347041058, ply_count=71, locs=(13, 112))
+History: [32, 104, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=14503193457376621792809136952444593, ply_count=72, locs=(35, 54))
+History: [114, 95, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=22839917289309764349521557459107874, ply_count=80, locs=(78, 39))
+History: [111, 104, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=6290097443438002816394722325651982, ply_count=73, locs=(8, 61))
+History: [0, 104, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=41522272218147703294758513389224809, ply_count=61, locs=(26, 19))
+History: [66, 10, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=20225368122008615267805588049888417, ply_count=72, locs=(9, 28))
+History: [114, 81, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=4526909040735260206855054195606087, ply_count=70, locs=(91, 62))
+History: [81, 114, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=25922937636439291633657978834650921, ply_count=59, locs=(13, 16))
+History: [104, 72, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=21136816321210826910123219162261437, ply_count=70, locs=(40, 84))
+History: [66, 104, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=18461135429539945519026529645127437, ply_count=68, locs=(109, 108))
+History: [114, 53, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=25965287708759008339150159210546338, ply_count=77, locs=(84, 111))
+History: [32, 0, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=17891799144794795450864919035299755, ply_count=63, locs=(111, 96))
+History: [114, 32, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+WARNING:sample_players:[Errno 2] No such file or directory: 'data.pickle'
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
